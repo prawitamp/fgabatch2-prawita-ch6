@@ -25,6 +25,3 @@ jobs:
       - name: Deploy to Railway
         run: |
           railway up --service fgabatch2-prawita-ch6
-
-      - name: Setup database
-        run: railway run --service fgabatch2-prawita-ch6 npx prisma migrate deploy
